@@ -1,0 +1,13 @@
+.App {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        width: 70vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

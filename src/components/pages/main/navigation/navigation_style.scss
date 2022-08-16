@@ -1,0 +1,23 @@
+.navigation {
+    max-height: 20rem;
+    background-color: rgb(57, 57, 57);
+    .navigation-ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0.5rem;
+
+        .navigation-ul-li {
+            list-style: none;
+
+            .nav-link {
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: #fff;
+            }
+            .active {
+                font-weight: bold;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
