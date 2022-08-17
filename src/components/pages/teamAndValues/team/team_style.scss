@@ -2,99 +2,133 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.component-head-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
-    width: 60%;
-
-    h2 {
-        font-size: 3.5rem;
-    }
-    p {
-        width: 70%;
-        margin-top: 2rem;
-        font-size: 2rem;
-        text-align: center;
-        font-weight: 300;
-    }
-}
-
-.component-intro-container {
-    display: flex;
-    margin-top: 5rem;
 
     div {
-        margin: 1rem;
-        flex-basis: 25%;
-        height: auto;
-        padding: 1rem;
-
-        h2 {
-            font-size: 3rem;
-        }
-        h4 {
-            font-size: 2rem;
-            font-weight: 400;
-        }
-        p {
-            font-size: 1.5rem;
-            text-align: center;
-            font-weight: 300;
-        }
-    }
-}
-
-.our-devoted-team-container {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2 {
-        font-size: 3rem;
-        text-align: center;
-    }
-    div {
-        margin-top: 2rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
-        // grid-template-rows: repeat(1fr, 2);
-        gap: 7rem;
-
-        position: relative;
-
-        div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        .component-head-container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
+            margin-top: 0rem;
+            width: 60%;
 
-            span {
-                position: absolute;
-                top: 0rem;
-                left: 0rem;
-                border: 0.5rem solid black;
-                border-radius: 50%;
-                padding: 1rem;
-                font-size: 2rem;
-                font-weight: bold;
-            }
-
-            h3 {
-                font-size: 3rem;
-                font-weight: 400;
+            h2 {
+                font-size: 3.5rem;
             }
             p {
+                width: 70%;
+                margin-top: 2rem;
                 font-size: 2rem;
                 text-align: center;
                 font-weight: 300;
-                width: 60%;
+            }
+        }
+
+        .component-intro-container {
+            display: flex;
+            flex-direction: row;
+
+            div {
+                margin: 1rem;
+                flex-basis: 25%;
+                height: 40rem;
+                width: 40rem;
+                padding: 1rem;
+                border: black solid 0.5rem;
+                border-radius: 50%;
+                padding: 1rem;
+
+                h2 {
+                    font-size: 5rem;
+                    margin-bottom: 0.5rem;
+                }
+                h4 {
+                    font-size: 2.4rem;
+                    font-weight: 400;
+                    margin-bottom: 0.7rem;
+                }
+                p {
+                    font-size: 1.9rem;
+                    text-align: center;
+                    font-weight: 300;
+                }
             }
         }
     }
 
-    div:nth-child(1) {
+    .arrows-container {
+        height: 20vh;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .arrow {
+            font-size: 15rem;
+            color: rgba(0, 0, 0, 0.34);
+        }
+    }
+
+    .our-devoted-team-container {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-size: 3rem;
+            text-align: center;
+        }
+        div {
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+            // grid-template-rows: repeat(1fr, 2);
+            gap: 1rem;
+
+            position: relative;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    height: 25rem;
+                    width: 25rem;
+                    box-shadow: 20px 10px rgba(0, 0, 0, 0.34);
+                    margin: 00.5rem;
+                }
+                span {
+                    position: absolute;
+                    top: 0rem;
+                    left: 10rem;
+                    border: 0.5rem solid rgba(0, 0, 0, 0.34);
+                    color: rgba(0, 0, 0, 0.34);
+                    border-radius: 50%;
+                    padding: 1rem;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+
+                h3 {
+                    margin-top: 0.7rem;
+                    font-size: 3rem;
+                    font-weight: 400;
+                }
+                p {
+                    font-size: 2rem;
+                    text-align: center;
+                    font-weight: 300;
+                    width: 60%;
+                }
+            }
+        }
     }
 }
