@@ -1,8 +1,12 @@
+@use "colors";
+
 .App {
-    min-width: 100vw;
-    min-height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    background: colors.$background;
+    color: colors.$red-pink-brighter;
 
     main {
         width: 80vw;

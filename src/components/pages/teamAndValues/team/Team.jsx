@@ -55,15 +55,15 @@ export default function Team() {
                     </div>
                 </div>
             </div>
+            <div className="our-devoted-team-h2-container">
+                <h2>Our Devoted Team</h2>{" "}
+            </div>
             <div className="arrows-container">
                 <FiArrowDown className="arrow" />
                 <FiArrowDown className="arrow" />
                 <FiArrowDown className="arrow" />
             </div>
             <div className="our-devoted-team-container">
-                <div>
-                    <h2>Our Devoted Team</h2>{" "}
-                </div>
                 <div>
                     {" "}
                     {team.map((member, i) => {

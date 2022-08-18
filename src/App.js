@@ -25,7 +25,7 @@ function App() {
                     <Route path="/WaitList" element={<WaitList />} />
                 </Routes>
             </main>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

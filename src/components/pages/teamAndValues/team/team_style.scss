@@ -1,8 +1,11 @@
+@use "../../../../colors.scss";
+
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: space-evenly;
+    color: colors.$team-bright-blue;
     div {
         display: flex;
         flex-direction: column;
@@ -39,7 +42,7 @@
                 height: 40rem;
                 width: 40rem;
                 padding: 1rem;
-                border: black solid 0.5rem;
+                border: colors.$team-bright-blue solid 0.5rem;
                 border-radius: 50%;
                 padding: 1rem;
 
@@ -61,6 +64,14 @@
         }
     }
 
+    .our-devoted-team-h2-container {
+        margin: -25rem auto;
+        h2 {
+            font-size: 4rem;
+            text-align: center;
+        }
+    }
+
     .arrows-container {
         height: 20vh;
         width: 100%;
@@ -72,7 +83,7 @@
 
         .arrow {
             font-size: 15rem;
-            color: rgba(0, 0, 0, 0.34);
+            color: colors.$team-bright-blue;
         }
     }
 
@@ -81,10 +92,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        h2 {
-            font-size: 3rem;
-            text-align: center;
-        }
+
         div {
             margin-top: 2rem;
             display: grid;
@@ -100,17 +108,17 @@
                 align-items: center;
 
                 img {
-                    height: 25rem;
-                    width: 25rem;
-                    box-shadow: 20px 10px rgba(0, 0, 0, 0.34);
+                    height: 45rem;
+                    width: 45rem;
                     margin: 00.5rem;
+                    object-fit: contain;
                 }
                 span {
                     position: absolute;
                     top: 0rem;
                     left: 10rem;
-                    border: 0.5rem solid rgba(0, 0, 0, 0.34);
-                    color: rgba(0, 0, 0, 0.34);
+                    border: 0.1rem solid colors.$team-bright-blue;
+                    color: colors.$team-bright-blue;
                     border-radius: 50%;
                     padding: 1rem;
                     font-size: 2rem;

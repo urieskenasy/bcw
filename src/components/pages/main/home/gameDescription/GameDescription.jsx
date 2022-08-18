@@ -1,5 +1,6 @@
 import React from "react";
 import "./gameDescription.scss";
+import imageAll from "../../../../../images/all3_2.PNG";
 export default function GameDescription() {
     return (
         <div className="gameDescription">
@@ -11,6 +12,7 @@ export default function GameDescription() {
                 development team is concentrating on two key goals: a long-term
                 Play2Earn economy and fun gameplay mechanisms.
             </p>
+            <img src={imageAll} alt="all game characters" />
         </div>
     );
 }
