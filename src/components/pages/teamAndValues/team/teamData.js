@@ -30,4 +30,30 @@ const team = [
     },
 ];
 
-export default team;
+const teamDescription = [
+    {
+        number: 2,
+        title: "Talented Developers",
+        content:
+            "Two 3D Engineers are dedicated to developing the gameplay, and one Blockchain Engineer will maintain integration into the Ethereum network.",
+    },
+    {
+        number: 2,
+        title: "Gameplay in Development",
+        content:
+            "First -Arena Battles, for both single and multiple players. Story-based adventurers and meeting world for enhancing power and connecting with other players.",
+    },
+    {
+        number: 2,
+        title: "Business Developers",
+        content:
+            "Two 3D Engineers are dedicated to developing the gameplay, and one Blockchain Engineer will maintain integration into the Ethereum network.",
+    },
+    {
+        number: "1,500",
+        title: "Hours of Work",
+        content:
+            "We are working hard in order to achieve every milestone we are aiming towards. Advancement and improvement are the mindsets of our project.",
+    },
+];
+export { team, teamDescription };

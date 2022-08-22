@@ -1,5 +1,5 @@
 import React from "react";
-import imagesData from "../images.json";
+import imagesData from "../images";
 import "./gallery_style.scss";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
@@ -37,7 +37,11 @@ export default function Gallery() {
                         return (
                             <SplideSlide key={index}>
                                 <div className="image">
-                                    <img src={image.route} className="img" />
+                                    <img
+                                        src={image.route}
+                                        className="img"
+                                        alt="game characters"
+                                    />
                                     <h2>{image.name}</h2>
                                 </div>
                             </SplideSlide>

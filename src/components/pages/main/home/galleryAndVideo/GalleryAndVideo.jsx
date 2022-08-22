@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "./gallery/Gallery";
-export default function () {
+export default function GalleryAndVideo() {
     return (
         <div>
             <Gallery />

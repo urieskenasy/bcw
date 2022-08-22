@@ -1,0 +1,37 @@
+@use "../../../../.../../colors.scss";
+.values-container {
+    margin-top: 110rem;
+
+    .values-container-header {
+        margin-bottom: 10rem;
+        h1 {
+            font-size: 3.5rem;
+        }
+        p {
+            margin-top: 2rem;
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 300;
+        }
+    }
+    .value-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5rem;
+        align-items: center;
+        justify-content: center;
+        .value-wrapper {
+            width: 70rem;
+            padding: 7rem;
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                margin-top: 2rem;
+                font-size: 1.8rem;
+                text-align: center;
+                font-weight: 300;
+            }
+        }
+    }
+}

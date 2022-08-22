@@ -1,6 +1,7 @@
 import React from "react";
 import "./gameDescription.scss";
 import imageAll from "../../../../../images/all3_2.PNG";
+
 export default function GameDescription() {
     return (
         <div className="gameDescription">

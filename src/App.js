@@ -14,14 +14,13 @@ function App() {
     return (
         <div className="App">
             <Navigation />
-            <main>
+            <main className="main-from-App-dot-js">
                 <Routes>
-                    <Route path="/" element={<Home />} />
                     <Route path="/NftAndTokens" element={<NftAndTokens />} />
                     <Route path="/Partners" element={<Partners />} />
                     <Route path="/MindMap" element={<MindMap />} />
                     <Route path="/TeamAndValues" element={<TeamAndValues />} />
-
+                    <Route path="/" element={<Home />} />
                     <Route path="/WaitList" element={<WaitList />} />
                 </Routes>
             </main>

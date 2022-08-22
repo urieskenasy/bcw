@@ -4,9 +4,11 @@ import Values from "./values/Values";
 import "./teamAndValues_styles.scss";
 export default function TeamAndValues() {
     return (
-        <div className="teamAndValues-container">
-            <Team />
-            <Values />
-        </div>
+        <>
+            <div className="teamAndValues-container">
+                <Team />
+                <Values />
+            </div>
+        </>
     );
 }
